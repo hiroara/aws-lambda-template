@@ -13,6 +13,7 @@
     "gulp-zip": "^3.0.2",
     "gulp-install": "^0.4.0",
     "coffee-script": "^1.9.3",
+    "q": "^1.4.1",
     "aws-sdk": "2.1.36"
   },
   "scripts": {
