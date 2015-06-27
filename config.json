@@ -1,0 +1,9 @@
+{
+    "FunctionName": "",
+    "Runtime": "nodejs",
+    "Role": "arn:aws:iam::__ID__:role/lambda_basic_execution",
+    "Handler": "main.handler",
+    "Description": "",
+    "Timeout": 3,
+    "MemorySize": 128
+}
