@@ -22,7 +22,7 @@
     "watch": "gulp watch",
     "create": "bin/create-function.sh",
     "update": "bin/update-function-code.sh",
-    "test": "gulp build && NODE_PATH=build node test.js"
+    "test": "source ./environment.sh && gulp build && NODE_PATH=build node test.js"
   },
   "repository": {
     "type": "git",

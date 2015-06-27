@@ -1,2 +1,2 @@
 # export AWS_DEFAULT_REGION=
-# export AWS_DEFAULT_PROFILE=
+# export AWS_PROFILE=
