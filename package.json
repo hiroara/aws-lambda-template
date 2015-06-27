@@ -1,6 +1,6 @@
 {
   "name": "lambda-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Template project for AWS Lambda",
   "main": null,
   "directories": {},

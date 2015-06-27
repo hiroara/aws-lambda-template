@@ -5,7 +5,7 @@ Template project for AWS Lambda.
 ## Getting started
 
     $ cd <PROJECT ROOT>
-    $ wget https://github.com/hiroara/aws-lambda-template/raw/master/dist/aws-lambda-template-0.0.2.tgz -O - | tar xzv
+    $ wget https://github.com/hiroara/aws-lambda-template/raw/master/dist/aws-lambda-template-0.0.3.tgz -O - | tar xzv
     $ npm install
 
 ## Tasks
