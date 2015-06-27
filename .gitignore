@@ -1,5 +1,5 @@
-/dist/*
-/dist.zip
+/build/*
+/build.zip
 /node_modules
 /npm-debug.log
 /tmp/*

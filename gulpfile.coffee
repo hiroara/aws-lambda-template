@@ -7,7 +7,7 @@ path = require 'path'
 coffeeSrc = 'src/**/*.coffee'
 libSrc = 'lib/**/*.js'
 configSrc = 'config/**/*.json'
-dest = 'dist'
+dest = 'build'
 
 gulp.task 'compile-coffee', ->
   gulp.src coffeeSrc
