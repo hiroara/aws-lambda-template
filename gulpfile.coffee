@@ -1,4 +1,6 @@
 gulp   = require 'gulp'
+gutil = require 'gulp-util'
+plumber = require 'gulp-plumber'
 coffee = require 'gulp-coffee'
 zip = require 'gulp-zip'
 install = require 'gulp-install'
@@ -11,7 +13,8 @@ dest = 'build'
 
 gulp.task 'compile-coffee', ->
   gulp.src coffeeSrc
-    .pipe coffee()
+    .pipe plumber()
+    .pipe coffee().on('error', gutil.log)
     .pipe gulp.dest(dest)
 
 gulp.task 'copy-libs', ->

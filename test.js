@@ -1,1 +1,1 @@
-require('./dist/main.js').handler({ message: 'TEST' });
+require('./build/main.js').handler({ message: 'TEST' });
