@@ -14,6 +14,10 @@
     "aws-sdk": "2.1.36"
   },
   "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "bundle": "gulp bundle",
+    "watch": "gulp watch",
     "create": "bin/create-function.sh",
     "update": "bin/update-function-code.sh",
     "test": "gulp build && NODE_PATH=dist node test.js"
